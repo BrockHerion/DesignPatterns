@@ -4,10 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverPattern.Weather
+namespace BuiltInObservablePattern
 {
-    public interface IDisplayElement
-    {
-        void Display();
-    }
+    public record WeatherData(float Temperature, float Humidity, float Pressure);
 }
