@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObserverPattern.Weather
+namespace ObserverPattern
 {
-    public interface IObserver
+    public interface IDisplayElement
     {
-        void Update(WeatherData weatherData);
+        void Display();
     }
 }

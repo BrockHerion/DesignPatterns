@@ -1,4 +1,4 @@
-﻿using ObserverPattern.Weather;
+﻿using ObserverPattern;
 
 var WeatherDataSubject = new WeatherDataSubject();
 
