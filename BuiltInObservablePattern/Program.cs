@@ -1,14 +1,15 @@
-﻿using BuiltInObservablePattern;
+﻿using System;
+using BuiltInObservablePattern;
 
 var provider = new WeatherDataHander();
 
-var currentConidtionsDisplay = new CurrentConditionsDisplay();
+var currentConditionsDisplay = new CurrentConditionsDisplay();
 var statisticsDisplay = new StatisticsDisplay();
 var forecastDisplay = new ForecastDisplay();
 
 provider.WeatherData = new WeatherData(80.0f, 65.0f, 30.4f);
 
-currentConidtionsDisplay.Subscribe(provider);
+currentConditionsDisplay.Subscribe(provider);
 statisticsDisplay.Subscribe(provider);
 forecastDisplay.Subscribe(provider);
 

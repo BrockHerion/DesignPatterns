@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C262442D-8AC4-4C82-B434-97C44964B0FF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DecoratorPattern/Beverage.cs">
+    <Files>
+      <File FileName="DecoratorPattern/Program.cs" Line="1" Column="1" />
+      <File FileName="DecoratorPattern/Beverage.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DesignPatterns" expanded="True">
+            <Node name="DecoratorPattern" expanded="True">
+              <Node name="Beverage.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.DecoratorPattern FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.StrategyPattern PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
